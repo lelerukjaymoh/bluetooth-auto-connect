@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+bluetoothctl trust BLUETOOTH_DEVICE_MAC_ADDRESS
+bluetoothctl disconnect BLUETOOTH_DEVICE_MAC_ADDRESS
+bluetoothctl connect BLUETOOTH_DEVICE_MAC_ADDRESS
